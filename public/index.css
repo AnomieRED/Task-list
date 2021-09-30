@@ -1,0 +1,21 @@
+.tasks {
+	margin-bottom: 1rem;
+}
+
+.tasks span.completed {
+	text-decoration: line-through;
+}
+
+.tasks label {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	background: #f3f3f3;
+	padding: 1rem;
+}
+
+.tasks i {
+	z-index: 2;
+}
